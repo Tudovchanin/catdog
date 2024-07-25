@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="" type="image/x-icon">
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+  <title>КотоПес</title>
+</head>
+
+<body>
+
+  <div id="gameRules" class="rules-text">положите животных в их домик</div>
+
+  <div id="wrapper-content" class="wrapper">
+    <div class="title">
+      <div class="cart-dog">
+        <img id="cartDog" draggable="false" src="images/домик-собаки.png" alt="домик собаки">
+      </div>
+      <div class="cart-cat">
+        <img id="cartCat" draggable="false" src="images/дом_кота.png" alt="домик кота">
+      </div>
+      <img draggable="false" src="images/catdog.png" alt="котопес">
+    </div>
+    <div class="wrapper-img">
+      <img draggable="false" id="image" src="images/Koshka-i-sobaka.jpg" alt="кошка с собакой">
+    </div>
+    <div class="container-btn">
+      <button type="button" id="show-dog" class="container-btn__show-animal">СОБАКА</button>
+      <button type="button" id="show-cat" class="container-btn__show-animal">КОТ</button>
+    </div>
+    <div draggable="true" class="cat-start cat"></div>
+    <div draggable="true" class="dog-start dog"></div>
+  </div>
+
+  <script src="./main.js"></script>
+</body>
+
+</html>
