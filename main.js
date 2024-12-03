@@ -160,7 +160,11 @@ document.addEventListener('dragover', (e) => {
   if (activeElem) {
 
     if (dragAnimal.classList.contains('dog')) {
+<<<<<<< HEAD
       deleteAnimal ? soundPlay(soundDogCart) : soundPlay(soundDogDrop, 800);
+=======
+      deleteAnimal ? soundPlay(soundDogDrop) : soundPlay(soundDogDrop, 800);
+>>>>>>> c0e8314b36f1b941c8f0efe72ddfb78c8eb32bec
     } else if (dragAnimal.classList.contains('cat')) {
       deleteAnimal ? soundPlay(soundCatCart) : soundPlay(soundCatDrop);
 

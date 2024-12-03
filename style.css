@@ -155,7 +155,11 @@ body {
 }
 
 .dog {
+<<<<<<< HEAD
   background-image: url("images/собака.webp");
+=======
+  background-image: url("images/турма.jpg");
+>>>>>>> c0e8314b36f1b941c8f0efe72ddfb78c8eb32bec
   background-position: center 3px;
 }
 
